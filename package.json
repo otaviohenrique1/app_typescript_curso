@@ -7,7 +7,8 @@
     "start": "ts-node src/index.ts",
     "dev": "ts-node-dev --transpile-only --ignore-watch node_modules src/index.ts",
     "nodemon_ts": "npx nodemon ./src/index.ts ",
-    "nodemon_ts_dev": "nodemon ./src/index.ts "
+    "nodemon_ts_dev": "nodemon ./src/index.ts ",
+    "test": "jest"
   },
   "keywords": [
     "typescript",
@@ -21,5 +22,8 @@
     "ts-node": "^10.9.1",
     "ts-node-dev": "^2.0.0",
     "typescript": "^4.9.5"
+  },
+  "devDependencies": {
+    "jest": "^29.4.3"
   }
 }
